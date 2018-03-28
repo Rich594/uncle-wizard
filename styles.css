@@ -1,0 +1,117 @@
+    h1 {
+        color: red;
+        font-family: 'Joti One', cursive;
+        font-size: 85px;
+        text-shadow: 2px 2px 3px black;
+    }
+
+    .main-page {
+        width:  900px;
+        position: relative;
+        left: 350px;
+    } 
+    
+    .links {
+        position: relative;
+        top: -50px;
+        left: -40px;
+    }
+        
+    a:link {
+                    
+        text-decoration: none;  
+        padding-right: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }    
+
+    a:link, a:visited {
+        color: blue;
+    }
+    
+    a:hover {
+        color: green;
+    }
+
+    .main-text {
+        width: 900px;
+        position: relative;
+        left: -160px;
+        top: -45px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        border-width: 0px 0px 1px 0px;
+    } 
+        
+    .row {
+        width:  900px;
+        position: relative;
+        left: -130px;
+        top: -50px;
+        margin: 10px;
+        padding: 10px;
+    }
+        
+    .column {
+        float: left;
+        width: 230px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px;
+        color: red;
+    }
+    
+    .column1 {
+        float: left;
+        text-align: justify;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        padding-top: 15px;
+        color: black;
+        font-weight: lighter;
+        
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+        
+    .clearfloat {
+        clear: both;
+    }
+
+    .images {
+        border-style: solid;
+        border-color: black;
+        border-radius: 5px;
+        border-width: 1px;
+        box-shadow: 5px 5px 2px grey;
+
+    }
+    
+    .footer-text {
+        width: 900px;
+        position: relative;
+        left: -160px;
+        top: -45px;
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 9.5px;
+        font-weight: lighter;
+        color: graytext;
+        border-style: solid;
+        border-color: gray;
+        border-width: 1px;
+        border-width: 1px 0px 0px 0px;
+      
+    } 
